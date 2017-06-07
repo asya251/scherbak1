@@ -40,6 +40,7 @@ input[type="button"]{width: 20%; height:25%; color:#c2c2c2;}
 input[type="search"]{
     color:#ec5a62;
     width: 70%;}
+input:focus{border: transparent} /*???все равно остается синяя рамка*/
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #c2c2c2;}
 ::-moz-placeholder { /* Firefox 19+ */
