@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,700|Playfair+Display:400,700&subset=cyrillic');
+
+body{box-shadow: 0 0 60px rgba(244, 244, 244, 1);
+    margin: 130px 100px;
+    padding: 120px;
+    color: #171717;}
+h1{ font: 400 42px/42px 'Playfair Display', serif;}
+p{font: 300 18px/34px 'Lato', sans-serif;}
+
+blockquote{font: italic 300 23px/1 'Lato', sans-serif;}
+P:first-child:first-letter{
+    float: left;
+    font: 110px/90px 'Playfair Display', serif;
+    margin-right: 10px}
+blockquote:before{
+    content: '“';
+}
+blockquote:after{
+    content: '	”';
+}
